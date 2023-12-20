@@ -1,1 +1,108 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro', sans-serif;
+    
 
+}
+  
+  h1{
+    align-items: center;
+    justify-content: center;
+    color: rgb(36, 36, 53);
+    background-color:#e3f9ff ;
+    text-align: center;
+  }
+
+
+  .container{
+    width: 100%;
+    height: 100vh;
+    background: #e3f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .calculator-outline{
+    background: rgb(36, 36, 53);
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .calculator{
+    background: rgb(9, 9, 10);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .calculator form input{
+    border: 0;
+    background-color: #b3c8e0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background: rgb(100, 100, 103);
+    font-size: 20px;
+    color:#fff;
+    cursor: pointer;
+    margin: 10px;
+    transition: opacity 0.15s;
+    
+  }
+  .calculator form input:hover{
+    opacity: 0.8;
+   }
+
+  form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px  0;
+    
+    
+  }
+
+  form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    background-color: rgb(9, 9, 10) ;
+    
+  }
+
+  form input.equal{
+    width: 145px;
+  }
+
+  form input.operator{
+    color: rgb(0, 0, 0);
+    background-color:  #b3c8e0;
+    font-weight: bold;
+    transition: opacity 0.15s;
+  }
+  form input.operator:hover{
+    opacity: 0.8;
+   }
+
+ form input.side{
+  background-color: rgb(89, 141, 220);
+  font-weight: bolder;
+  transition: opacity 0.15s;
+ }
+
+ form input.side:hover{
+  opacity: 0.8;
+ }
+
+ form input.equal{
+  background-color:  #b3c8e0;
+  font-weight: bolder;
+  font-size: 30px;
+  transition: opacity 0.15s;
+ }
+ form input.equal:hover{
+  opacity: 0.8;
+ }
+ 
